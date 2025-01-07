@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            margin-top: 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+        img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Menu</h1>
+        <p>Here's the menu:</p>
+        <img src="menu.jpg" alt="Menu Image"> <!-- The image to display the menu -->
+    </div>
+</body>
+</html>
